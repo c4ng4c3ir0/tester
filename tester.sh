@@ -1,11 +1,12 @@
 #!/bin/bash
 
-echo digite a url
-read url
+echo Digite um nome para o projeto:
+read pasta
 
-mkdir $url
-cd $url
+mkdir $pasta;
+cd $pasta;
 
-gauplus $url | anew urls | dalfox pipe --silence
+echo Digite a url a ser testada
+read url;
 
-
+gauplus $url | anew urls | dalfox pipe --silence | anew vulns
