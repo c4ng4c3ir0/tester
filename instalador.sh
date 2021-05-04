@@ -19,6 +19,7 @@ echo
 echo
 echo "Finalizando Instalação"
 cd ;
+mkdir TesterScanner
 cd go/bin;
 sudo mv * /usr/bin;
 echo "Instalação Finalizada!!"
