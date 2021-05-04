@@ -1,10 +1,10 @@
-echo "instalando gauplus"
+echo "Instalando gauplus"
 echo 
 GO111MODULE=on go get -u -v github.com/bp0lr/gauplus;
 echo
-echo "gauplus instalado"
+echo "Gauplus instalado"
 echo
-echo "Instalando dalfox..."
+echo "Instalando Dalfox..."
 echo
 GO111MODULE=on go get -v github.com/hahwul/dalfox/v2;
 echo
