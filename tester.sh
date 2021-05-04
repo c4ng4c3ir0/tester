@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ;
+cd TesterScanner;
 echo Digite um nome para o projeto:
 read pasta
 
