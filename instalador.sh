@@ -1,3 +1,7 @@
+echo "Instalando Golang"
+sudo apt install golang;
+echo
+echo "Golang Instalado"
 echo "Instalando gauplus"
 echo 
 GO111MODULE=on go get -u -v github.com/bp0lr/gauplus;
