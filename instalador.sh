@@ -7,6 +7,7 @@ echo
 echo "Instalando dalfox..."
 echo
 GO111MODULE=on go get -v github.com/hahwul/dalfox/v2;
+echo
 echo "Dalfox instalado!"
 echo
 echo "Instalando Anew"
